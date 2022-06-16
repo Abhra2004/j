@@ -1,0 +1,144 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+
+h1 {
+    color: whitesmoke;
+  }
+
+a {
+    color: #e5e7eb;
+}
+
+p {
+    color: whitesmoke;
+  }
+
+/* Header Stuff */
+
+
+.mainhead {
+    color:#f9faf9; 
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left:-250px;
+}
+
+
+/* Top Part(not including header) */
+
+.toppart {
+    background-color: #1f2937;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+
+
+.Title {
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.test {
+    text-align: left;
+    font-size: 48px
+}
+
+.MainImage {
+    margin-left: 750px;
+    margin-top: -20px
+}
+
+/* Middle Stuff */
+
+.Head2 {
+    text-align: center;
+    color: #1f2937;
+}
+
+.Content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Content p {
+    text-align: center;
+    color: black;
+}
+
+.transportation {
+  border: 7px solid rgb(4, 38, 112);
+  border-radius: 6px;
+  box-shadow: 2px 2px 3px black;
+}
+
+.energy {
+  border: 7px solid rgb(4, 38, 112);
+  border-radius: 6px;
+  box-shadow: 2px 2px 3px black;
+}
+
+.technology {
+  border: 7px solid rgb(4, 38, 112);
+  border-radius: 6px;
+  box-shadow: 2px 2px 3px black;
+}
+
+.finance {
+  border: 7px solid rgb(4, 38, 112);
+  border-radius: 6px;
+  box-shadow: 2px 2px 3px black;
+}
+
+/* Quote Section */
+
+.quotes {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb
+}
+
+.quotes p {
+    text-align: center;
+    font-style: italic;
+    font-size: 36px;
+    color:#1f2937
+}
+
+.quoter {
+    text-align: right;
+    margin-right: 50px;
+    color: #1f2937
+}
+
+/* Signup Section */
+
+.signup {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #1f2937
+}
+
+.signupbutton {
+  margin-top: 40px;
+  color: #1f2937
+}
+
+h3 {
+  color: whitesmoke;
+}
+
+/* Footer */
+
+.footer p {
+  text-align: center;
+  color: #1f2937
+}
